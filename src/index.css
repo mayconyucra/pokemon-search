@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box !important;
+}
+body{
+  background-image: url("./media/portada.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  position: relative;
+}
+::placeholder {
+  color: rgb(235, 223, 223) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  color: rgb(235, 223, 223) !important;
+}
+
+::-ms-input-placeholder {
+  color: rgb(235, 223, 223) !important;
+}
